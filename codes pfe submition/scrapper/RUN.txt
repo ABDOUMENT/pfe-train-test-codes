@@ -1,0 +1,8 @@
+$url = "https://x.com/fifaworldcup_ar/status/1993375128315666682?s=20"
+Invoke-RestMethod -Uri "http://127.0.0.1:8000/extract?url=$url"
+
+
+
+
+
+uvicorn main:app --reload
